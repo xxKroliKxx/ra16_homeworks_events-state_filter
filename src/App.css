@@ -1,0 +1,44 @@
+
+#root{
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.filters{
+    padding-left: 0;
+    margin-left: 10px;
+}
+
+.filter {
+    padding: 5px 10px;
+    display: inline-block;
+    margin-right: 20px;
+    border: solid 1px #9a9a9a;
+    color: #322f30;
+    font: bold 13px "Open Sans";
+}
+
+
+.filter:last-child {
+    margin-right: 0;
+}
+
+.selected {
+    background-color: #555555;
+    border-color: #555555;
+    color: #f2f3f7;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 5px 10px;
+}
+
+img {
+    width: 20%;
+    height: 50%;
+}
